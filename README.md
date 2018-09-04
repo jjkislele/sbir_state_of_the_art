@@ -16,7 +16,7 @@ This collection is inspired by [the image denoising collection](https://github.c
 # Benchmark and Dataset
 - Flickr15K 
 	- 
-- TU-Berlin [Web](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/) [Data](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/sketches_png.zip) [PDF](http://cybertron.cg.tu-berlin.de/eitz/pdf/2012_siggraph_classifysketch.pdf)
+- TU-Berlin [[Web]](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/) [[Data]](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/sketches_png.zip) [[PDF]](http://cybertron.cg.tu-berlin.de/eitz/pdf/2012_siggraph_classifysketch.pdf)
 	- How Do Humans Sketch Objects? (Siggraph 2012), Eitz M et al.
 	- 20,000 unique sketches evenly distributed over 250 object categories
 	- **sketch only**
