@@ -8,15 +8,23 @@ This collection is inspired by [the image denoising collection](https://github.c
 
 # Feature descriptor
 ## Global
-
+- GF-HoG ~~[[Web]](http://personal.ee.surrey.ac.uk/Personal/R.Hu/SBIR.html)~~ [[Web]](http://stuartjames.info/gradient-field-hog.aspx) [[Code]](http://stuartjames.info/SharedFiles/Download.aspx?pageid=105&mid=234&fileid=28) [[PDF]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5649331&isnumber=5648792)
+	- Gradient field descriptor for sketch based retrieval and localization (ICIP, 2010), Rui Hu et al.
+	- A Bag-of-Regions Approach to Sketch Based Image Retrieval (ICIP, 2011), Rui Hu et al.
+	- A Performance Evaluation of Gradient Field HOG Descriptor for Sketch Based Image Retrieval (COMPUT VIS IMAGE UND, 2013)
+- Color GF-HoG [[Web]](https://github.com/TuBui/color-GFHoG) [[Code]](https://github.com/TuBui/color-GFHoG) [[PDF]](http://openaccess.thecvf.com/content_iccv_2015_workshops/w27/papers/Bui_Scalable_Sketch-Based_Image_ICCV_2015_paper.pdf)
+	- Scalable Sketch-based Image Retrieval using Color Gradient Features (ICIP, 2015), T Bui et al.
 ## Local
+- SHOG
 
 # Deep Learning
 ## Fine Grain
+- Sketch Me That Shoe [[Web]](http://www.eecs.qmul.ac.uk/~qian/Project_cvpr16.html) [[Code]](https://github.com/seuliufeng/DeepSBIR) [[PDF]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/paper/SketchMeThatShoe_cvpr2016.pdf) [[Database]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/ShoeV2.zip) 
+## Hash Coding
 
 
 # Benchmark and Dataset
-- Flickr15K ~~[[Web]](http://personal.ee.surrey.ac.uk/Personal/R.Hu) [[Image(source and groundtruth)]](http://personal.ee.surrey.ac.uk/Personal/R.Hu/index_files/images.zip) [[Image(resized)]](http://personal.ee.surrey.ac.uk/Personal/R.Hu/index_files/resize_img.zip) [[Sketch]](http://personal.ee.surrey.ac.uk/Personal/R.Hu/330sketches.zip)~~ [[Image(source and groundtruth)]](https://drive.google.com/open?id=13AFiwNh4FMks_jGfL4UDntMf0lHL6BTQ) [[Image(resized)]](https://drive.google.com/open?id=1PqzIO-OWTeEAl3Hs5tRavRs6-qZ8OmXb) [[Sketch]](https://drive.google.com/open?id=16SOyCbC1H6HYJ2uT9ECDRRMj70_zbvmb) [[groundtruth]](https://drive.google.com/open?id=14GEGBW9QgAqAC9_Jh6A5XMeTLWVE9xY2) [[PDF]](http://personal.ee.surrey.ac.uk/Personal/J.Collomosse/pubs/Hu-CVIU-2013.pdf)
+- Flickr15K ~~[[Web]](http://personal.ee.surrey.ac.uk/Personal/R.Hu/SBIR.html) [[Image(source and groundtruth)]](http://personal.ee.surrey.ac.uk/Personal/R.Hu/index_files/images.zip) [[Image(resized)]](http://personal.ee.surrey.ac.uk/Personal/R.Hu/index_files/resize_img.zip) [[Sketch]](http://personal.ee.surrey.ac.uk/Personal/R.Hu/330sketches.zip)~~ [[Image(source and groundtruth)]](https://drive.google.com/open?id=13AFiwNh4FMks_jGfL4UDntMf0lHL6BTQ) [[Image(resized)]](https://drive.google.com/open?id=1PqzIO-OWTeEAl3Hs5tRavRs6-qZ8OmXb) [[Sketch]](https://drive.google.com/open?id=16SOyCbC1H6HYJ2uT9ECDRRMj70_zbvmb) [[groundtruth]](https://drive.google.com/open?id=14GEGBW9QgAqAC9_Jh6A5XMeTLWVE9xY2) [[PDF]](http://personal.ee.surrey.ac.uk/Personal/J.Collomosse/pubs/Hu-CVIU-2013.pdf)
 	- A Performance Evaluation of Gradient Field HOG Descriptor for Sketch Based Image Retrieval (CVIU 2013), R Hu et al.
 	- 14,660 images labelled into 33 categories based on shape only
 	- 10 non-expert sketchers(5 males, 5 females)
@@ -27,6 +35,10 @@ This collection is inspired by [the image denoising collection](https://github.c
 	- **sketch only**
 - Image100k [[Web]](http://cybertron.cg.tu-berlin.de/eitz/tvcg_benchmark/) [[Image]](http://cybertron.cg.tu-berlin.de/eitz/tvcg_benchmark/imagedb_100k.tar) [[Benchmark/Sketch]](http://cybertron.cg.tu-berlin.de/eitz/tvcg_benchmark/benchmark.zip) [[PDF]](http://cybertron.cg.tu-berlin.de/eitz/pdf/2010_tvcg_prelim.pdf)
 	- Sketch-Based Image Retrieval: Benchmark and Bag-of-Features Descriptors (IEEE T VIS COMPUT GR 2012), Eitz M et al.
-	- [Benchmark] has 1,240 images labelled into 31 categories and 31 corresponding sketches for testing
+	- [Benchmark] has 1,240 images labelled into 31 categories and 31 corresponding query sketches for testing
 	- [Image] has 101,240 images for training
 	- 28 participants(23 males, 5 females)
+- GOLD [[Web]](http://smiles.xjtu.edu.cn/Download/Download_gold.html) [[Image(resized)]](http://image.ntua.gr/iva/datasets/ec1m/ec1m_landmarks.tar.gz) [[PDF]](http://smiles.xjtu.edu.cn/Publications/Our%20Paper/Sketch-Based%20Image%20Retrieval%20by%20Salient%20Contour%20Reinforcement.pdf)
+	- Sketch-Based Image Retrieval by Salient Contour Reinforcement (IEEE T MULTIMEDIA 2016), Zhang Y et al.
+	- contains more than 22,000 Flickr Crawled images together with their Geotags
+	- extend image set, **image only**
