@@ -18,6 +18,9 @@ This collection is inspired by [the image denoising collection](https://github.c
 - SHOG
 
 # Deep Learning
+## Modelling
+- Triplet loss CNN
+	- Compact Descriptors for Sketch-based Image Retrieval using a Triplet loss Convolutional Neural Network (CVIU 2017), Tu Bui et al. [[Web]](http://www.cvssp.org/data/Flickr25K/CVIU16.html) [[Code]](https://github.com/TuBui/Triplet_Loss_SBIR) [[PDF]](http://www.cvssp.org/data/Flickr25K/CVIU16_files/CVIU16_published.pdf)
 ## Fine Grain
 - Sketch Me That Shoe [[Web]](http://www.eecs.qmul.ac.uk/~qian/Project_cvpr16.html) [[Code]](https://github.com/seuliufeng/DeepSBIR) [[PDF]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/paper/SketchMeThatShoe_cvpr2016.pdf) [[Database]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/ShoeV2.zip) 
 ## Hash Coding
@@ -29,6 +32,10 @@ This collection is inspired by [the image denoising collection](https://github.c
 	- 14,660 images labelled into 33 categories based on shape only
 	- 10 non-expert sketchers(5 males, 5 females)
 	- 330 free-hand sketches
+- Flickr25K [[Web]](http://www.cvssp.org/data/Flickr25K/CVIU16.html) [[Image]](http://www.cvssp.org/data/Flickr25K/Flickr25K.zip) [[PDF]](http://www.cvssp.org/data/Flickr25K/CVIU16_files/CVIU16_published.pdf)
+	- Compact Descriptors for Sketch-based Image Retrieval using a Triplet loss Convolutional Neural Network (CVIU 2017), Tu Bui et al.
+	- 25,000 images labelled into 250 categories
+	- can be used associated with TU-Berlin, shown as follows
 - TU-Berlin [[Web]](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/) [[Sketch]](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/sketches_png.zip) [[PDF]](http://cybertron.cg.tu-berlin.de/eitz/pdf/2012_siggraph_classifysketch.pdf)
 	- How Do Humans Sketch Objects? (Siggraph 2012), Eitz M et al.
 	- 20,000 unique sketches evenly distributed over 250 object categories
