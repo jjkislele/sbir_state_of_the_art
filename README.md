@@ -35,6 +35,7 @@ This collection is inspired by [the image denoising collection](https://github.c
 - Flickr25K [[Web]](http://www.cvssp.org/data/Flickr25K/CVIU16.html) [[Image]](http://www.cvssp.org/data/Flickr25K/Flickr25K.zip) [[PDF]](http://www.cvssp.org/data/Flickr25K/CVIU16_files/CVIU16_published.pdf)
 	- Compact Descriptors for Sketch-based Image Retrieval using a Triplet loss Convolutional Neural Network (CVIU 2017), Tu Bui et al.
 	- 25,000 images labelled into 250 categories
+	- **images only**
 	- can be used associated with TU-Berlin, shown as follows
 - TU-Berlin [[Web]](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/) [[Sketch]](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/sketches_png.zip) [[PDF]](http://cybertron.cg.tu-berlin.de/eitz/pdf/2012_siggraph_classifysketch.pdf)
 	- How Do Humans Sketch Objects? (Siggraph 2012), Eitz M et al.
