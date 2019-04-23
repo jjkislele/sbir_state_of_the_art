@@ -16,24 +16,28 @@ This collection is inspired by [the image denoising collection](https://github.c
 	- Scalable Sketch-based Image Retrieval using Color Gradient Features (ICIP, 2015), Tu Bui et al.
 ## Local
 - SHOG [[Code(msvs)]](https://github.com/jjkislele/imdb_framework_msvs) [[Code(origin)]](https://github.com/mathiaseitz/imdb_framework)
-    - Sketch-based image retrieval: Benchmark and bag-of-features descriptors (IEEE T VIS COMPUT GR， 2011), Eitz M et al.
+    - Sketch-based image retrieval: Benchmark and bag-of-features descriptors (IEEE T VIS COMPUT GR, 2011), Eitz M et al.
     - A descriptor for large scale image retrieval based on sketched feature lines (SBM, 2009), Eitz M et al.
     - How do humans sketch objects? (TOG, 2012), Eitz M et al.
 
 # Deep Learning
 ## Modelling
+- Classification
+    - Sketch-a-Net that Beats Humans (BMVC, 2015),  Qian Y et al. [[PDF]](http://www.eecs.qmul.ac.uk/~yzs/yu2015sketchanet.pdf) [[trained model]](http://www.eecs.qmul.ac.uk/~tmh/downloads/SketchANet_Model.zip) & Sketch-a-Net: A Deep Neural Network that Beats Humans (IJCV, 2016), Qian Y et al.   [[Code(Tensorflow)]](https://github.com/ligoudanaierya/Sketch_a_net-tensorflow) [[Code(Tensorflow)(modified net)]](https://github.com/ayush29feb/Sketch-A-XNORNet) [[Code(Matlab)]](https://github.com/YuDengsteven/Sketch_a_net-Matlab) [[Code(Pytorch)]](https://github.com/prizopedro/CIS519_project/blob/master/sketchnet.py) [[PDF]](http://www.eecs.qmul.ac.uk/~yzs/yu2016sketchanet.pdf)
 - Triplet loss CNN
-	- Compact Descriptors for Sketch-based Image Retrieval using a Triplet loss Convolutional Neural Network (CVIU 2017), Tu Bui et al. [[Web]](http://www.cvssp.org/data/Flickr25K/CVIU16.html) [[Code(Caffe)]](https://github.com/TuBui/Triplet_Loss_SBIR) [[Code(Pytorch)]](https://github.com/jjkislele/SketchTriplet) [[PDF]](http://www.cvssp.org/data/Flickr25K/CVIU16_files/CVIU16_published.pdf)
+    - The Sketchy Database: Learning to Retrieve Badly Drawn Bunnies (TOG, 2016), Sangkloy P et al. [[Web]](http://sketchy.eye.gatech.edu/) [[Code(Caffe)]](https://github.com/janesjanes/sketchy) [[PDF]](http://sketchy.eye.gatech.edu/paper.pdf)
+	- Compact Descriptors for Sketch-based Image Retrieval using a Triplet loss Convolutional Neural Network (CVIU, 2017), Tu Bui et al. [[Web]](http://www.cvssp.org/data/Flickr25K/CVIU16.html) [[Code(Caffe)]](https://github.com/TuBui/Triplet_Loss_SBIR) [[Code(Pytorch)]](https://github.com/jjkislele/SketchTriplet) [[PDF]](http://www.cvssp.org/data/Flickr25K/CVIU16_files/CVIU16_published.pdf)
     - Sketch Me That Shoe<sup>1</sup> (CVPR, 2016), Yu Q et al. [[Web]](http://www.eecs.qmul.ac.uk/~qian/Project_cvpr16.html) [[Code(Caffe)]](https://github.com/seuliufeng/DeepSBIR) [[Code(Tensorflow)]](https://github.com/yuchuochuo1023/Deep_SBIR_tf/tree/master) [[PDF]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/paper/SketchMeThatShoe_cvpr2016.pdf) [[Dataset]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/ShoeV2.zip) 
-    - Deep Spatial-Semantic Attention for Fine-grained Sketch-based Image Retrieval<sup>1</sup> (ICCV, 2017) Song J et al. [[Web]](http://www.eecs.qmul.ac.uk/~js327/Project_pages/Project_iccv2017.html) [[Code(Tensorflow)]](https://github.com/yuchuochuo1023/Deep_SBIR_tf/tree/master) [[PDF]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/paper/SketchMeThatShoe_cvpr2016.pdf) [[Dataset]](https://drive.google.com/open?id=0BwXZSv_g6pw3ejZCTHI4NTZxUFU)
+    - Deep Spatial-Semantic Attention for Fine-grained Sketch-based Image Retrieval<sup>1</sup> (ICCV, 2017), Song J et al. [[Web]](http://www.eecs.qmul.ac.uk/~js327/Project_pages/Project_iccv2017.html) [[Code(Tensorflow)]](https://github.com/yuchuochuo1023/Deep_SBIR_tf/tree/master) [[PDF]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/paper/SketchMeThatShoe_cvpr2016.pdf) [[Dataset]](https://drive.google.com/open?id=0BwXZSv_g6pw3ejZCTHI4NTZxUFU)
 
 - DPM
-    - Fine-grained sketch-based image retrieval by matching DPM<sup>1</sup> (unpublished) Yi L et al. [[Web]](https://qmro.qmul.ac.uk/xmlui/handle/123456789/6440) [[Code(Matlab)]](https://github.com/panly099/fine-graind-SBIR) [[PDF]](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/6440/GONGFine-grained2014.pdf?sequence=2&isAllowed=y)
+    - Fine-grained sketch-based image retrieval by matching DPM<sup>1</sup> (unpublished), Yi L et al. [[Web]](https://qmro.qmul.ac.uk/xmlui/handle/123456789/6440) [[Code(Matlab)]](https://github.com/panly099/fine-graind-SBIR) [[PDF]](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/6440/GONGFine-grained2014.pdf?sequence=2&isAllowed=y)
 
-<sup>1</sup>: Fine-grained retrieval
+<sup>1</sup>: *Fine-grained retrieval*
 
 ## Hash Coding
-- Deep Sketch Hashing
+- Multi-column weight sharing
+    - Deep Sketch Hashing: Fast Free-hand Sketch-Based Image Retrieval (CVPR, 2017),  Li L et al. [[Web]](https://github.com/ymcidence/DeepSketchHashing) [[Code(Caffe)]](https://github.com/ymcidence/DeepSketchHashing) [[PDF]](https://arxiv.org/abs/1703.05605.pdf)
 
 
 # Benchmark and Dataset
@@ -60,3 +64,9 @@ This collection is inspired by [the image denoising collection](https://github.c
 	- Sketch-Based Image Retrieval by Salient Contour Reinforcement (IEEE T MULTIMEDIA 2016), Zhang Y et al.
 	- contains more than 22,000 Flickr Crawled images together with their Geotags
 	- extend image set, **image only**
+- Sketchy [[Web]](http://sketchy.eye.gatech.edu/) [[Image&Sketch]](https://goo.gl/SNpMmK) [[PDF]](http://sketchy.eye.gatech.edu/paper.pdf)
+    - The Sketchy Database: Learning to Retrieve Badly Drawn Bunnies (TOG, 2016), Sangkloy P et al.
+    - sampled from 125 categories and acquire 75,471 sketches of 12,500 objects
+    - a benchmark contained
+- SketchyScene [[Web]](https://github.com/SketchyScene/SketchyScene) [[PDF]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Changqing_Zou_SketchyScene_Richly-Annotated_Scene_ECCV_2018_paper.pdf)
+    - SketchyScene: Richly-Annotated Scene Sketches (ECCV, 2018), Changqing Z et al.
