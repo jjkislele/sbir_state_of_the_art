@@ -16,7 +16,7 @@ This collection is inspired by [the image denoising collection](https://github.c
 	- Scalable Sketch-based Image Retrieval using Color Gradient Features (ICIP, 2015), Tu Bui et al.
 ## Local
 - SHOG [[Code(msvs)]](https://github.com/jjkislele/imdb_framework_msvs) [[Code(origin)]](https://github.com/mathiaseitz/imdb_framework)
-    - Sketch-based image retrieval: Benchmark and bag-of-features descriptors (IEEE T VIS COMPUT GR， 2011)， Eitz M et al.
+    - Sketch-based image retrieval: Benchmark and bag-of-features descriptors (IEEE T VIS COMPUT GR， 2011), Eitz M et al.
     - A descriptor for large scale image retrieval based on sketched feature lines (SBM, 2009), Eitz M et al.
     - How do humans sketch objects? (TOG, 2012), Eitz M et al.
 
@@ -24,11 +24,16 @@ This collection is inspired by [the image denoising collection](https://github.c
 ## Modelling
 - Triplet loss CNN
 	- Compact Descriptors for Sketch-based Image Retrieval using a Triplet loss Convolutional Neural Network (CVIU 2017), Tu Bui et al. [[Web]](http://www.cvssp.org/data/Flickr25K/CVIU16.html) [[Code(Caffe)]](https://github.com/TuBui/Triplet_Loss_SBIR) [[Code(Pytorch)]](https://github.com/jjkislele/SketchTriplet) [[PDF]](http://www.cvssp.org/data/Flickr25K/CVIU16_files/CVIU16_published.pdf)
+    - Sketch Me That Shoe[^1] (CVPR, 2016), Yu Q et al. [[Web]](http://www.eecs.qmul.ac.uk/~qian/Project_cvpr16.html) [[Code(Caffe)]](https://github.com/seuliufeng/DeepSBIR) [[Code(Tensorflow)]](https://github.com/yuchuochuo1023/Deep_SBIR_tf/tree/master) [[PDF]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/paper/SketchMeThatShoe_cvpr2016.pdf) [[Dataset]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/ShoeV2.zip) 
+    - Deep Spatial-Semantic Attention for Fine-grained Sketch-based Image Retrieval[^1] (ICCV, 2017) Song J et al. [[Web]](http://www.eecs.qmul.ac.uk/~js327/Project_pages/Project_iccv2017.html) [[Code(Tensorflow)]](https://github.com/yuchuochuo1023/Deep_SBIR_tf/tree/master) [[PDF]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/paper/SketchMeThatShoe_cvpr2016.pdf) [[Dataset]](https://drive.google.com/open?id=0BwXZSv_g6pw3ejZCTHI4NTZxUFU)
 
-## Fine Grain
-- Sketch Me That Shoe [[Web]](http://www.eecs.qmul.ac.uk/~qian/Project_cvpr16.html) [[Code]](https://github.com/seuliufeng/DeepSBIR) [[PDF]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/paper/SketchMeThatShoe_cvpr2016.pdf) [[Database]](http://www.eecs.qmul.ac.uk/~qian/Qian's%20Materials/ShoeV2.zip) 
+- DPM
+    - Fine-grained sketch-based image retrieval by matching DPM[^1] (unpublished) Yi L et al. [[Web]](https://qmro.qmul.ac.uk/xmlui/handle/123456789/6440) [[Code(Matlab)]](https://github.com/panly099/fine-graind-SBIR) [[PDF]](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/6440/GONGFine-grained2014.pdf?sequence=2&isAllowed=y)
+
+[^1]: Fine-grained retrieval
 
 ## Hash Coding
+- Deep Sketch Hashing
 
 
 # Benchmark and Dataset
